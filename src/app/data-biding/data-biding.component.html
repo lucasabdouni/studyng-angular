@@ -1,0 +1,13 @@
+<p>{{ nome }} tem {{ idade }}</p>
+
+<button disabled="checkedDisabled">Click me</button>
+<button (click)="alertaInfo('Deu bom lc!')">Alert Info</button>
+
+<div (mousemove)="mouseMoveTeste($event)" style="background: red; width: 300px; height: 300px;"></div>
+
+{{ position.x }} - {{ position.y }}
+
+
+<br>
+
+<input [(ngModel)]="nome">
