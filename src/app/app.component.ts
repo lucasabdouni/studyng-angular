@@ -14,6 +14,8 @@ import { Component, OnInit } from '@angular/core';
 
   <app-data-biding></app-data-biding>
 
+  <app-diretivas-estruturais></app-diretivas-estruturais>
+
   <router-outlet></router-outlet>
   `
 })
