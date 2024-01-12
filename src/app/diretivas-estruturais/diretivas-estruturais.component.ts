@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DiretivasEstruturaisComponent implements OnInit {
   public condition: boolean = true
   public conditionClick: boolean = true
+  public name: string = ''
 
   public list: Array<{ nome: string }> = [{ nome: 'Lucas Abdouni'}, { nome: 'Lucas Lourenço'}]
   constructor() {}

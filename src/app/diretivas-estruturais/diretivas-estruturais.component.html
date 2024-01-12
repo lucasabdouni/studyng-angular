@@ -25,5 +25,18 @@
   </li>
 </ul>
 
-
 <button (click)="onClickAddList()">Clicar</button>
+
+<hr>
+
+<input type="text" [(ngModel)]="name">
+
+<div [ngSwitch]="name">
+  <p *ngSwitchCase="'nay'">nay</p>
+
+  <p *ngSwitchCase="'dener'">Dener</p>
+
+  <p *ngSwitchDefault>
+    Deu ruim ai
+  </p>
+</div>
