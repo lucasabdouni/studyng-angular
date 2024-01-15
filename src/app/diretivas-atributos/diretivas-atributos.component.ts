@@ -11,7 +11,7 @@ export class DiretivasAtributosComponent {
   public backgroundColor: string = 'black'
 
   public nome: string = "";
-  public list: Array<{nome: string}> = []
+  public list: Array<{nome: string}> = [{nome: "Lucas Abdouni"}]
 
   constructor() {}
 
