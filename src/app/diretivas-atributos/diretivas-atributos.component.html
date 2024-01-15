@@ -1,4 +1,4 @@
-<ng-content select="h1"></ng-content>
+<!-- <ng-content select="h1"></ng-content>
 
 <hr>
 
@@ -22,4 +22,12 @@
 
 </ng-template> -->
 
-<ng-content select="hr"></ng-content>
+<!-- <ng-content select="hr"></ng-content> -->
+
+<input type="text" [(ngModel)]="nome"> {{nome}}
+<button (click)="salvar()">Salvar</button>
+
+<li *ngFor="let item of list">{{item.nome | uppercase}}</li>
+
+
+{{ date | date: 'dd/MM/yyyy'}}

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-  <app-title *ngIf="destruir"></app-title>
+  <!-- <app-title *ngIf="destruir"></app-title>
   {{valor}}
   <button (click)="adicionar()">Adicionar</button>
 
@@ -19,7 +19,9 @@ import { Component, OnInit } from '@angular/core';
   <app-diretivas-atributos>
     <h1>Aulas de Diretivas de Atributo</h1>
     <hr>
-  </app-diretivas-atributos>
+  </app-diretivas-atributos> -->
+
+  <app-diretivas-atributos></app-diretivas-atributos>
 
   <router-outlet></router-outlet>
   `

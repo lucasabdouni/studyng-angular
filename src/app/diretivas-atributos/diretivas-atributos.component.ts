@@ -13,6 +13,8 @@ export class DiretivasAtributosComponent {
   public nome: string = "";
   public list: Array<{nome: string}> = [{nome: "Lucas Abdouni"}]
 
+  public date:Date = new Date()
+
   constructor() {}
 
   public salvar(){
