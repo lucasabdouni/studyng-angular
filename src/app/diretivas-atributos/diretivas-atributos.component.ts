@@ -8,4 +8,15 @@ import { Component } from '@angular/core';
 export class DiretivasAtributosComponent {
   public valor: boolean = true
   public height: string = '20px'
+  public backgroundColor: string = 'black'
+
+  public nome: string = "";
+  public list: Array<{nome: string}> = []
+
+  constructor() {}
+
+  public salvar(){
+    this.list .push({nome: this.nome})
+    this.nome = ''
+  }
 }
