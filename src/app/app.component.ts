@@ -28,11 +28,13 @@ import { Component, OnInit } from '@angular/core';
   <br>
   <button (click)="add()"> Add </button> -->
 
-  <ng-template [ngIf]="getDados">
+  <!-- <ng-template [ngIf]="getDados">
     <h1>{{getDados.nome}}</h1>
     <h1>{{getDados.idade}}</h1>
   </ng-template>
-  <app-output (enviarDados)="setDados($event)"></app-output>
+  <app-output (enviarDados)="setDados($event)"></app-output> -->
+
+  <app-food-list></app-food-list>
 
   <router-outlet></router-outlet>
   `
